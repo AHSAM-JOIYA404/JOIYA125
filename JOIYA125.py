@@ -75,8 +75,6 @@ S ='\x1b[1;96m'
 Y ='\x1b[1;93m'
 uu ='\x1b[1;95m'
 tred = speed
- 
- os.system("xdg-open https://www.facebook.com/AHSAM.FATHER.OF.HETARS")
 	
 logo= f'''
  \033[1;37m  ╔═══════════════════════════════════════════╗                                    
@@ -101,10 +99,8 @@ logo= f'''
 \033[1;97m Notice : Use 10007/10006 For More OK Ids :/
 \033[1;93m=================================
 '''
- os.system("xdg-open https://www.facebook.com/AHSAM.FATHER.OF.HETARS")
- 
 ####@-----Menu-----@####
-def AUH_Main():
+def Auh_Main():
     os.system("clear")
     print(logo)
     print(f"{oo(1)}File Cloning")
@@ -134,7 +130,7 @@ def file():
     os.system("clear")
     print(logo)
     if 'gm' in l:
-        file = '.Hannan'
+        file = '.Ahsam'
     else:
         file = input(f"{oo('-')}Enter File: ")
     try:
@@ -142,7 +138,7 @@ def file():
             accounts.append(x.strip())
     except:
         print(f"{oo('!')}File Not Found");time.sleep(1)
-        AUH_Main()
+        Auh_Main()
      
     method()
     exit()
@@ -187,7 +183,7 @@ def gmail():
             lchoice = random.choice(lists)
             if '3' in lchoice:
                 mail = ''.join(random.choice(string.digits) for _ in range(3))
-                open('.Hannan','a').write(first.lower()+last.lower()+mail+domain+'|'+first+' '+last+'\n')
+                open('.Ahsam','a').write(first.lower()+last.lower()+mail+domain+'|'+first+' '+last+'\n')
             else:
                 mail = ''.join(random.choice(string.digits) for _ in range(4))
                 open('.Ahsam','a').write(first.lower()+last.lower()+mail+domain+'|'+first+' '+last+'\n')
